@@ -8,8 +8,7 @@ namespace PrimeiroPrograma
         {
             /*
              * Console.WriteLine("Hello, World!");
-            Console.Beep(); //Faz um Beep ao abrir o console
-            */
+            Console.Beep(); //Faz um Beep ao abrir o 
 
             int x; //primeira forma de declaração
             x = 234;
@@ -22,8 +21,19 @@ namespace PrimeiroPrograma
             Console.WriteLine(x+" e "+y);
             Console.WriteLine("Altura: "+altura);
             Console.WriteLine("Nome: "+nome);
-            Console.WriteLine("Condição booleana: "+condicao);
+            Console.WriteLine("Condição booleana: "+condicao
+            */
 
+            int x = 16;
+            int y = -3;
+
+            double exponenciacao = Math.Pow(x, 2);
+            double raiz = Math.Sqrt(x);
+            double modulo = Math.Abs(y);
+
+            Console.WriteLine(exponenciacao);
+            Console.WriteLine(raiz);
+            Console.WriteLine(modulo);
 
             Console.ReadKey();
         }
